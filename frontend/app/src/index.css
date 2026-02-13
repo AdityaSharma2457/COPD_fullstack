@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin:0px;
+  padding:0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: 120px 120px;
+  background-image: url("./gptimage.png");
+  background-repeat: repeat;     /* repeat in both directions */
+  background-size: auto;         /* IMPORTANT */
+  height: 100vh;
+}
+
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 320px;
+  border-radius: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 15px;
+  padding: 10px;
+  background: #e5fbe5;
+}
+
+.error {
+  color: red;
+}

@@ -1,0 +1,43 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+*.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Node.js specific
+node_modules/
+*.log
+
+# Environment variables
+.env
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+
+# Other
+*.bak
+*.swp
+*.tmp
+*.temp
+*.log
+*.out
+*.lock

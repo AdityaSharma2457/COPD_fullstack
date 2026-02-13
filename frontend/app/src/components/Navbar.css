@@ -1,0 +1,64 @@
+/* Enhanced Navbar styles with hover effects, animations, and a modern look */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #1e3a8a, #2563eb);
+    padding: 1rem 2rem;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+    background: linear-gradient(90deg, #2563eb, #1e3a8a);
+}
+
+.navbar-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navbar-logo:hover {
+    color: #ffcc00;
+    transform: scale(1.1);
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    display: inline;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navbar-links li:hover {
+    color: #ffcc00;
+    transform: translateY(-3px);
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #ffcc00;
+}
