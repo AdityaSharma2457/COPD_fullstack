@@ -8,7 +8,7 @@ app = FastAPI(title="COPD Prediction API")
 # Allow frontend to connect
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://copd-fullstack.vercel.app/"],  # Vite default
+    allow_origins=["https://copd-fullstack.vercel.app"],  # Vite default
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
