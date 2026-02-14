@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routes.predict_route import router as predict_router
-import app.modles as modles
+from routes.predict_route import router as predict_router
+import modles as modles
 
 
 app = FastAPI(title="COPD Prediction API")
